@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "band80"
+version = "1.0.0"
+description = "80 uniform digits from the system's random source, grouped as you ask"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+keywords = ["random", "entropy", "secrets", "digits"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Security :: Cryptography",
+]
+
+[project.scripts]
+band80 = "band80:main"
+
+[tool.setuptools]
+py-modules = ["band80"]
