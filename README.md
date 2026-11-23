@@ -59,3 +59,15 @@ gen(8, 10)   # same as band80 8:10
 ```
 python -m unittest discover test
 ```
+
+## Verify
+
+```
+sha256sum band80.py
+```
+
+v1.0.0:
+
+```
+00559e6cd83de05841f1cf7be441604a4ef37460518ce5665e34c150aa8377ca
+```
