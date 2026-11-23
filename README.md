@@ -10,7 +10,7 @@ $ band80 4:20
 ## Install
 
 ```
-pip install git+https://github.com/USER/band80
+pip install git+https://github.com/mrtatiso/band80
 ```
 
 ## Use
