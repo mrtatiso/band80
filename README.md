@@ -57,5 +57,5 @@ gen(8, 10)   # same as band80 8:10
 ## Test
 
 ```
-python -m unittest discover tests
+python -m unittest discover test
 ```
